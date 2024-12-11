@@ -71,10 +71,10 @@ double getFinalPrice() const override {
 
 int main() {
 
-Product* book1 = new Book("C++ Programming", 200);
-Product* book2 = new Book("Clean Code", 150);
-Product* pen1 = new Pen("Pilot Pen", 20);
-Product* pen2 = new Pen("Simple Pen", 4);
+Product* book1 = new Book("book1", 200);
+Product* book2 = new Book("book2", 150);
+Product* pen1 = new Pen("pen1", 20);
+Product* pen2 = new Pen("pen2", 4);
 Product* products[] = { book1, book2, pen1, pen2 };
 
 for (Product* product : products) {
